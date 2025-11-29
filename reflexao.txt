@@ -1,0 +1,2 @@
+A lógica dedutiva aparece no uso do Git quando utilizamos causas e consequências claras: cada comando gera um estado específico do repositório. Ao fazer commits, por exemplo, 
+deduzimos que mudanças registradas podem ser recuperadas, comparadas e analisadas. Assim, entendemos como o histórico é formado por uma sequência lógica de modificações.
