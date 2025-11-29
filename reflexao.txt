@@ -1,2 +1,5 @@
 A lógica dedutiva aparece no uso do Git quando utilizamos causas e consequências claras: cada comando gera um estado específico do repositório. Ao fazer commits, por exemplo, 
 deduzimos que mudanças registradas podem ser recuperadas, comparadas e analisadas. Assim, entendemos como o histórico é formado por uma sequência lógica de modificações.
+
+A decomposição aparece na criação e manutenção de branches porque dividimos o trabalho em partes menores e independentes. 
+Cada branch representa um pedaço isolado do desenvolvimento, facilitando testes, organização das tarefas e controle lógico das modificações antes de integrá-las à main.
