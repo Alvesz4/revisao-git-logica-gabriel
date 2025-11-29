@@ -1,0 +1,34 @@
+1º) A rastreadibilidade é o pilar essencial, porque é com ela que você vai saber onde o seu arquivo está, onde o seu arquivo se encontra, e se ele está untracked ou não. Ela também é essencial para ver todos os seus commits. E se um repositório for de um grupo, com colaboradores, eles enviam seus commits, e por aí você consegue ver desde a primeira versão que aquele repositório teve, 
+desde quem comitou, quando e o que foi atualizado ou mudado da versão anterior daquele arquivo.
+
+2º) As branches servem para separar um projeto ou organizar ele em partes. As branches para o projeto final ficar no seu repositório quando for comitar. Você pode escolher entre a main ou a master. 
+Aí existem outras branches, onde você pode comitar algo separado que serve para organizar os commits.Por exemplo, eu posso criar uma branch para colocar a tela de login. 
+E você pode escolher o nome para colocar a tela de login. Colocar o nome de branch de factory. E para corrigir algo, eu posso criar uma branch chamada fix ou hotfix.
+
+3º) Quando você comita algo, faz com que cada comite seja rastreado e registrado, podendo ver toda a sua trajetória, do que mudou, do que foi adicionado, assim podendo voltar e ver as versões antigas. 
+Se der algum erro ou algum problema, não vai comprometer o projeto, apenas voltar a versão e assim auxiliar a evolução do projeto, 
+garantindo que nada vai ser perdido e que seja fácil de acompanhar.
+
+4º) Raciocínio Indutivo. Você é induzido a pensar algo. Por exemplo, "mexer com Git ou GitHub é complicado". 
+Então você vai ser forçado a achar que aquilo é realmente difícil e vai ficar com isso na cabeça.
+
+O raciocínio dedutivo é você achar que tal coisa é ruim, tipo você deduzir que "Chainsaw Man é ruim" sendo que não é, 
+ou achar que você comitou algo errado e vai lascar todo o projeto.
+
+A lógica é fundamental para criar hipóteses e modelos teóricos, para assim você conseguir "se virar" e pensar "se isso der errado, vou tentar desse jeito". 
+Para conseguir algo difícil naquele momento, isso parece desafio.
+
+A dedução não depende de várias pessoas falar algo, e isso, cair na sua cabeça. E, ser considerado, "Maria vai com as outras". 
+A generalização é uma indução. Uma pessoa falar que um jogo é ruim, ou um anime é ruim, e cair em "efeito manada".
+
+5º) Quando você dá git status, ele mostra onde seus arquivos estão, se ele está em um trucked, quem comitou, 
+quando foi comitado, e quantos arquivos desde o primeiro até o último arquivo foram enviados.
+
+O git diff compara duas versões do arquivo linha por linha e mostra exatamente o que mudou. 
+Ele não prevê nada nem faz inferências: apenas exibe diferenças reais e concretas entre uma versão e outra.
+
+O git log mostra os commits em ordem cronológica, permitindo entender o que foi feito, quando e por quem. A partir dessa sequência, 
+conseguimos deduzir como o projeto evoluiu e quais decisões foram tomadas ao longo do tempo.
+
+Porque cada comando do Git parte de uma situação clara do repositório e produz um resultado específico e previsível. Nada é aleatório: se você faz um commit, 
+sabe que o estado atual será registrado; se faz um merge, sabe que duas linhas de desenvolvimento serão unidas. Tudo segue uma lógica baseada em causa e consequência.
