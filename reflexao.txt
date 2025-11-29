@@ -3,3 +3,12 @@ deduzimos que mudanças registradas podem ser recuperadas, comparadas e analisad
 
 A decomposição aparece na criação e manutenção de branches porque dividimos o trabalho em partes menores e independentes. 
 Cada branch representa um pedaço isolado do desenvolvimento, facilitando testes, organização das tarefas e controle lógico das modificações antes de integrá-las à main.
+
+ANÁLISE DO GIT DIFF:
+O git diff mostrou que, no branch desenvolvimento, foram adicionados novos parágrafos ao arquivo reflexao.txt. As linhas marcadas com "+" representam o texto da segunda reflexão sobre decomposição e a explicação de como os branches dividem o trabalho em partes menores. Esse diff evidencia exatamente o que mudou em relação à versão anterior na main, mostrando de forma clara quais trechos foram acrescentados durante o desenvolvimento.
+
+RESUMO DO GIT LOG:
+$ git log --oneline
+ea33458 (HEAD -> master, origin/master, origin/desenvolvimento, desenvolvimento) Adiciona análise do git di
+ff
+b6e8f42 Adiciona primeira reflexão sobre lógica dedutiva
